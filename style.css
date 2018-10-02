@@ -1,13 +1,21 @@
-html{
+html {
 	background-color:#ededed;
+	font-family: sans-serif;
 }
 
-body{
+body {
 	
 	background-color: white;
 	height: 1000px;
 	width: 960px;
 	margin: 150px auto 0 auto;
+}
+h1 {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 30px;
+	font-weight: 300;
+
 }
 
 /* Estilo columnas */
@@ -63,5 +71,80 @@ body{
 
 .col-md-12{
 	width: 99.99%
+}
+
+/* Grillas Offset */
+
+.col-offset-1{
+	margin-left: 8.33%;
+}
+
+.col-offset-2{
+	margin-left: 16.66%;
+}
+
+.col-offset-3{
+	margin-left: 24.99%;
+}
+
+.col-offset-4{
+	margin-left: 33.33%;
+}
+
+.col-offset-5{
+	margin-left: 41.66%;
+}
+
+.col-offset-6{
+	margin-left: 49.99%;
+}
+
+.col-offset-7{
+	margin-left: 58.33%;
+}
+
+.col-offset-8{
+	margin-left: 66.66%;
+}
+
+.col-offset-9{
+	margin-left: 74.99%;
+}
+
+.col-offset-10{
+	margin-left: 83.33%;
+}
+
+.col-offset-11{
+	margin-left: 91.66%;
+}
+
+.col-offset-12{
+	margin-left: 99.99%
+}
+
+/* Aquí comienzan los estilos*/
+.naranja{
+	color: #ef553d;
+}
+
+
+
+/* header */
+#avatar {
+	border: 5px solid #ededed;
+	border-radius: 50%;
+	width: 20%;
+	position: relative;
+	margin-left: 40%;
+	margin-top: -80px;
+}
+
+.linea {
+	width: 99%;
+	height: 2px;
+	background-color: #ededed;
+	position: relative;
+	margin-left: 0.5%;
 }
 
