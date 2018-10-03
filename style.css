@@ -1,6 +1,6 @@
 html {
 	background-image: url("imagenes/gplaypattern.png");
-	font-family: sans-serif;
+	font-family: 'Montserrat';
 
 }
 
@@ -186,14 +186,37 @@ a{
 	clear: left;
 	position: relative;
 	color: white;
-	text-transform:;
+	text-transform:uppercase;
 	font-weight: 500px;
 	font-size: 12px;
 }	
 
+/* section  Skills problemas con el margen superior del título*/
 
 .idiomas {
 	clear: left;
-	position: relative;
 	width: 100%;
+}
+.idiomas table tr td ul li{
+	display: inline-block;
+}	
+
+.idiomas img{
+	width: 	20px;
+}
+
+/* section hobbys */
+
+.hobby ul li {
+	list-style: none;
+	padding: 10px;
+	border: 1px solid red;
+	border-radius: 7px;
+	display: inline-block;
+	margin-bottom: 5px;
+
+}
+
+.hobby ul{
+	padding-left: 0px;
 }
