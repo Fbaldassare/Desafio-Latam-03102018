@@ -7,7 +7,7 @@ html {
 body {
 	
 	background-color: white;
-	width: 960px;
+	max-width: 960px;
 	margin: 150px auto 0 auto;
 	display: table;
 }
@@ -45,6 +45,24 @@ a{
 	text-decoration: none;
 }
 
+a:link {
+    color: #ef553d;
+}
+
+/* visited link */
+a:visited {
+    color: #ef553d;
+}
+
+/* mouse over link */
+a:hover {
+    color: #616161;
+}
+
+/* selected link */
+a:active {
+    color: #ef553d;
+}
 
 
 /* Estilo columnas */
@@ -168,6 +186,11 @@ a{
 	margin-top: -80px;
 }
 
+#name{
+	font-weight: 700;
+	color:#ef553d;
+}
+
 .linea {
 	width: 99%;
 	height: 2px;
@@ -177,7 +200,8 @@ a{
 }
 
 /* section  Skills*/
-
+.skills1{
+}
 .skills {
 	background-color: #ef553d;
 	padding: 3px 0 3px 3px;
@@ -189,6 +213,7 @@ a{
 	text-transform:uppercase;
 	font-weight: 500px;
 	font-size: 12px;
+	display: block;
 }	
 
 /* section  Skills problemas con el margen superior del título*/
