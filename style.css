@@ -1,15 +1,33 @@
 html {
-	background-color:#ededed;
+	background-image: url("imagenes/gplaypattern.png");
 	font-family: sans-serif;
+
 }
 
 body {
 	
 	background-color: white;
-	height: 1000px;
 	width: 960px;
 	margin: 150px auto 0 auto;
+	display: table;
 }
+
+section {
+	margin-left: 5px;
+}
+
+table{
+	text-align: left;
+}
+
+table, tr, td {
+	padding-left: 10px;
+}
+
+table, th {
+	padding-top: 0px;
+}
+
 h1 {
 	text-align: center;
 	text-transform: uppercase;
@@ -20,7 +38,14 @@ h1 {
 
 h2 {
 	text-transform: uppercase;
+	color: #ef553d;
 }
+
+a{
+	text-decoration: none;
+}
+
+
 
 /* Estilo columnas */
 
@@ -129,9 +154,7 @@ h2 {
 }
 
 /* Aquí comienzan los estilos*/
-.naranja{
-	color: #ef553d;
-}
+
 
 
 
@@ -153,3 +176,24 @@ h2 {
 	margin-left: 0.5%;
 }
 
+/* section  Skills*/
+
+.skills {
+	background-color: #ef553d;
+	padding: 3px 0 3px 3px;
+	margin-top: 3px;
+	margin-bottom: 3px;
+	clear: left;
+	position: relative;
+	color: white;
+	text-transform:;
+	font-weight: 500px;
+	font-size: 12px;
+}	
+
+
+.idiomas {
+	clear: left;
+	position: relative;
+	width: 100%;
+}
